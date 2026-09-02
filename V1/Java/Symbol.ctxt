@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Aug 23 23:15:50 COT 2026
+comment0.target=Symbol
+comment0.text=\r\n Representa la entidad visual y l\u00F3gica de un s\u00EDmbolo dentro de una rueda.\r\n Encapsula la figura gr\u00E1fica proveniente del paquete shapes y su color CSS asociado.\r\n \r\n @author David Laiton - Santiago Murillo\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=Symbol(java.lang.String)
+comment1.text=\r\n Crea un s\u00EDmbolo con una representaci\u00F3n gr\u00E1fica asociada a un color est\u00E1ndar CSS.\r\n @param color Nombre del color en est\u00E1ndar CSS ("red", "blue", "yellow").\r\n @param xPos Posici\u00F3n inicial en el eje X para el dibujo.\r\n @param yPos Posici\u00F3n inicial en el eje Y para el dibujo.\r\n
+comment2.target=java.lang.String getColor()
+comment2.text=\r\n Obtiene el color CSS asignado al s\u00EDmbolo.\r\n @return Nombre del color CSS.\r\n
+comment3.params=x y
+comment3.target=void setPosition(int, int)
+comment3.text=\r\n Cambia la posici\u00F3n en pantalla de la representaci\u00F3n gr\u00E1fica del s\u00EDmbolo.\r\n @param x Nueva coordenada X.\r\n @param y Nueva coordenada Y.\r\n
+comment4.target=void makeVisible()
+comment4.text=\r\n Muestra el elemento grafico del simbolo en el lienzo\r\n
+comment5.target=void makeInvisible()
+comment5.text=\r\n Oculta el elemento grafico del simbolo del lienzo\r\n
+numComments=6

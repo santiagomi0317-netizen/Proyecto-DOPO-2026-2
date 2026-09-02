@@ -1,0 +1,31 @@
+#BlueJ class context
+#Sun Aug 23 21:26:22 COT 2026
+comment0.target=Wheel
+comment0.text=\r\n Representa una rueda individual dentro de la maquina tragamonedas\r\n Administra la colecci\u00F3n secuencial de simbolos, su rotacion grafica y el simbolo activo\r\n \r\n @author David Laiton - Santiago Murillo \r\n @version 1.0\r\n
+comment1.target=Wheel()
+comment1.text=\r\n Crea una rueda vacia sin simbolos asignados\r\n
+comment10.target=void makeVisible()
+comment10.text=\r\n Muestra la representacion visual de la rueda y de su simbolo activo\r\n
+comment11.target=void makeInvisible()
+comment11.text=\r\n Oculta la representacion visual de la rueda\r\n
+comment2.params=color
+comment2.target=void addSymbol(java.lang.String)
+comment2.text=\r\n Agrega un nuevo simbolo a la secuencia de la rueda\r\n @param  color Color CSS del simbolo a crear\r\n
+comment3.params=color
+comment3.target=boolean removeSymbol(java.lang.String)
+comment3.text=\r\n Elimina la primera o todas las apariciones de un simbolo especifico en la rueda\r\n @param color Color CSS del simbolo al remover\r\n @return true si se elimin\u00F3, false en caso contrario\r\n
+comment4.params=color
+comment4.target=boolean containSymbol(java.lang.String)
+comment4.text=\r\n Verifica si la rueda contiene un simbolo con el codigo indicado\r\n @param color Color CSS a buscar\r\n @return true si existe en la rueda\r\n
+comment5.target=void spin()
+comment5.text=\r\n Gira la rueda para cambiar el simbolo que queda visible en la parte frontal\r\n
+comment6.params=color
+comment6.target=void setTopSymbol(java.lang.String)
+comment6.text=\r\n Fuerza la selecci\u00F3n del simbolo visible en la rueda\r\n @param color Color CSS del simbolo que debe quedar al fente\r\n
+comment7.target=java.lang.String getVisibleSymbol()
+comment7.text=\r\n Obtiene el color CSS del simbolo que esta actualmente visible en la rueda\r\n @return Nombre del color del color visible\r\n
+comment8.target=java.lang.String[] getSymbolArray()
+comment8.text=\r\n Retorna todos los colores de los simbolos contenidos en esta rueda en su orden actual\r\n @return Arreglo de cadenas con los colores de la rueda\r\n
+comment9.target=java.util.List getAllSymbols()
+comment9.text=\r\n Retorna la lista de simbolos sin repetir presentes en esta rueda\r\n @return Lista con los colores unicos de la rueda\r\n
+numComments=12
