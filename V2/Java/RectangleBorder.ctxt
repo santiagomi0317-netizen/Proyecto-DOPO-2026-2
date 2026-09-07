@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sun Sep 06 22:48:17 COT 2026
+comment0.target=RectangleBorder
+comment0.text=\r\n Representa un marco o rect\u00E1ngulo compuesto \u00FAnicamente por sus bordes.\r\n Permite encerrar figuras sin tapar el fondo.\r\n \r\n @author Santiago Murillo\r\n @version 2026-2\r\n
+comment1.params=width height thickness color
+comment1.target=RectangleBorder(int, int, int, java.lang.String)
+comment1.text=\r\n Constructor para un rect\u00E1ngulo de solo borde.\r\n \r\n @param width Ancho total del marco en p\u00EDxeles.\r\n @param height Alto total del marco en p\u00EDxeles.\r\n @param thickness Grosor de la l\u00EDnea del borde en p\u00EDxeles.\r\n @param color Color del borde (ej. "black", "red", "blue").\r\n
+comment2.target=void ajustarDimensiones()
+comment2.text=\r\n Ajusta las dimensiones y posiciones de las 4 l\u00EDneas para formar el borde.\r\n
+comment3.params=newWidth newHeight
+comment3.target=void changeSize(int, int)
+comment3.text=\r\n Cambia el tama\u00F1o del marco de bordes.\r\n
+comment4.params=color
+comment4.target=void changeColor(java.lang.String)
+comment4.text=\r\n Cambia el color del borde.\r\n
+comment5.target=void makeVisible()
+comment5.text=\r\n Muestra el marco en la pantalla.\r\n
+comment6.target=void makeInvisible()
+comment6.text=\r\n Oculta el marco de la pantalla.\r\n
+comment7.params=distance
+comment7.target=void moveHorizontal(int)
+comment7.text=\r\n Desplaza el marco horizontalmente.\r\n
+comment8.params=distance
+comment8.target=void moveVertical(int)
+comment8.text=\r\n Desplaza el marco verticalmente.\r\n
+numComments=9
