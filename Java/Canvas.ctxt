@@ -1,0 +1,40 @@
+#BlueJ class context
+#Tue Sep 08 20:25:53 COT 2026
+comment0.target=Canvas
+comment0.text=\r\n Canvas is a class to allow for simple graphical drawing on a canvas.\r\n This is a modification of the general purpose Canvas, specially made for\r\n the BlueJ "shapes" example. \r\n\r\n @author\: Bruce Quig\r\n @author\: Michael Kolling (mik)\r\n\r\n @version\: 1.6 (shapes)\r\n
+comment1.target=Canvas getCanvas()
+comment1.text=\r\n Factory method to get the canvas singleton object.\r\n
+comment10.params=text x y color fontSize
+comment10.target=void drawString(java.lang.String, int, int, java.lang.String, int)
+comment10.text=\r\n Dibuja una cadena de texto directamente en el Canvas.\r\n Tomado de gemini\r\n Ciclo 1\r\n
+comment11.params=text x y
+comment11.target=void eraseString(java.lang.String, int, int)
+comment11.text=\r\n Borra una cadena de texto en las coordenadas dadas redibuj\u00E1ndola en blanco.\r\n Tomado de gemini\r\n Ciclo 1\r\n
+comment12.params=text x y color fontSize delayMs
+comment12.target=void showFloatingMessage(java.lang.String, int, int, java.lang.String, int, int)
+comment12.text=\r\n Muestra un mensaje flotante en el Canvas durante un n\u00FAmero especificado de milisegundos.\r\n @param text Mensaje a mostrar\r\n @param x Coordenada X\r\n @param y Coordenada Y\r\n @param color Color del texto\r\n @param delayMs Tiempo de permanencia en milisegundos (ej. 3000 ms \= 3 segundos)\r\n Tomado de gemini\r\n Ciclo 1\r\n
+comment13.params=e
+comment13.target=void actionPerformed(java.awt.event.ActionEvent)
+comment2.params=title width height bgColour
+comment2.target=Canvas(java.lang.String, int, int, java.awt.Color)
+comment2.text=\r\n Create a Canvas.\r\n @param title  title to appear in Canvas Frame\r\n @param width  the desired width for the canvas\r\n @param height  the desired height for the canvas\r\n @param bgClour  the desired background colour of the canvas\r\n
+comment3.params=visible
+comment3.target=void setVisible(boolean)
+comment3.text=\r\n Set the canvas visibility and brings canvas to the front of screen\r\n when made visible. This method can also be used to bring an already\r\n visible canvas to the front of other windows.\r\n @param visible  boolean value representing the desired visibility of\r\n the canvas (true or false) \r\n
+comment4.params=referenceObject color shape
+comment4.target=void draw(java.lang.Object, java.lang.String, java.awt.Shape)
+comment4.text=\r\n Draw a given shape onto the canvas.\r\n @param  referenceObject  an object to define identity for this shape\r\n @param  color            the color of the shape\r\n @param  shape            the shape object to be drawn on the canvas\r\n
+comment5.params=referenceObject
+comment5.target=void erase(java.lang.Object)
+comment5.text=\r\n Erase a given shape's from the screen.\r\n @param  referenceObject  the shape object to be erased \r\n
+comment6.params=colorString
+comment6.target=void setForegroundColor(java.lang.String)
+comment6.text=\r\n Set the foreground colour of the Canvas using standard CSS color strings.\r\n Supports standard CSS color names and hexadecimal strings (e.g. "\#FF0000").\r\n Tomado de Gemini\r\n \r\n @param colorString the CSS color name or hex code\r\n
+comment7.params=milliseconds
+comment7.target=void wait(int)
+comment7.text=\r\n Wait for a specified number of milliseconds before finishing.\r\n This provides an easy way to specify a small delay which can be\r\n used when producing animations.\r\n @param  milliseconds  the number \r\n
+comment8.target=void redraw()
+comment8.text=\r\n Redraw ell shapes currently on the Canvas.\r\n
+comment9.target=void erase()
+comment9.text=\r\n Erase the whole canvas. (Does not repaint.)\r\n
+numComments=14
