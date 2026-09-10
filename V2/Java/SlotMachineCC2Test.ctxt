@@ -1,0 +1,13 @@
+#BlueJ class context
+#Wed Sep 09 22:35:24 COT 2026
+comment0.target=SlotMachineCC2Test
+comment0.text=\r\n The test class SlotMachineCC2Test.\r\n\r\n @author  (Santiago Murillo)\r\n @version (9 de septiembre)\r\n
+comment1.target=void setUp()
+comment1.text=\r\n Constructor por defecto de la calse tests SlotMachineC2Test\r\n Se crea la m\u00E1quina y se pone en modo INVISIBLE para las pruebas de unidad\r\n
+comment2.target=void tearDown()
+comment2.text=\r\n Liberar recursos depues de cada prueba unitaria\r\n\r\n
+comment3.target=void accordingMurShouldSwapLockedWheelsAndMaintainLockState()
+comment3.text=\r\n Prueba 1\:\r\n \u00BFQu\u00E9 deber\u00EDa hacer? Permitir intercambiar (swap) dos ruedas aun si una o ambas est\u00E1n bloqueadas (lock),\r\n manteniendo el estado de bloqueo en sus nuevas posiciones.\r\n \u00BFQu\u00E9 no deber\u00EDa hacer? Cancelar el intercambio o perder el estado de bloqueo tras la reubicaci\u00F3n.\r\n
+comment4.target=void accordingMurShouldSpinUnlockedWheelsOnlyWhenArrayIsApplied()
+comment4.text=\r\n Prueba 2\:\r\n \u00BFQu\u00E9 deber\u00EDa hacer? Validar el comportamiento de spin(String[]) sobre una m\u00E1quina que tiene\r\n algunas ruedas bloqueadas y otras libres.\r\n \u00BFQu\u00E9 no deber\u00EDa hacer? Modificar el s\u00EDmbolo de las ruedas que est\u00E1n fijadas.\r\n
+numComments=5
